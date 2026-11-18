@@ -1,9 +1,0 @@
-@tailwind base;@tailwind components;@tailwind utilities;
-body{background:#0F0D0C;color:#f3e7d8}
-/* Faixa inspirada em tecido Kente: listras verticais ocre, verde, vermelho e preto */
-.kente{height:14px;background:repeating-linear-gradient(90deg,#F59E0B 0 22px,#0F0D0C 22px 28px,#15803d 28px 44px,#0F0D0C 44px 50px,#b91c1c 50px 62px,#0F0D0C 62px 68px,#D97706 68px 90px,#241712 90px 96px)}
-/* Padrão em losangos (tom Adinkra) para fundos */
-.adinkra{background-image:radial-gradient(circle at 50% 50%,#F59E0B14 0 2px,transparent 3px),linear-gradient(45deg,#F59E0B0a 25%,transparent 25% 75%,#F59E0B0a 75%);background-size:28px 28px,56px 56px}
-.card{border:1px solid #F59E0B33;background:#241712;transition:transform .25s,box-shadow .25s}
-.card:hover{transform:translateY(-4px);box-shadow:0 0 28px #F59E0B33}
-@media(prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
